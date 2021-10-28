@@ -17,61 +17,35 @@
   </head>
   <body>
       <div id="header">
-        <!-- <div class="header-grid-layout">
-            <div class="imgLogo">
-                <a href=""><img src="./images/Logo React Plus-Final-04 1.png" alt="Đây là ảnh logo ReactPlus"></a>
-            </div>
-            <div class="nav">
-                <ul>
-                    <li><a href="">Trang chủ</a></li>
-                    <li><a href="">Giới thiệu</a> <img class="nav-arrow-down" src="./assets/images/icon-drop-down.png" alt="">
-                        <ul class="subnav">
-                            <li><a href="">Về React & ReactNative</a></li>
-                            <li><a href="">Công ty ReactPlus</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="">Văn hóa</a></li>
-                    <li><a href="">Tuyển dụng</a></li>
-                    <li><a href="">Đào tạo & Sự kiện</a> <img class="nav-arrow-down" src="./assets/images/icon-drop-down.png"
-                            alt="">
-                        <ul class="subnav">
-                            <li><a href="">Về React & ReactNative</a></li>
-                            <li><a href="">Công ty ReactPlus</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="">Vì cộng đồng</a></li>
-                    <li><a href="">Tin tức & Blog</a></li>
-                    </li>
+        <nav class="navbar">
+            <div class="max-width">
+                <div class="logo">
+                    <a href="/home-demo/home-demo.html"><img src="images/Logo React Plus-Final-04 1.png" alt="" /></a>
+                </div>
+                <ul class="menu">
+                    <li><a href="/home-demo/home-demo.html" class="menu-btn">Trang chủ</a></li>
+                    <li><a href="/introduce-react/introduce-react.html" class="menu-btn">Giới thiệu</a></li>
+                    <li><a href="/introduce-company/introduce-company.html" class="menu-btn">Văn hóa</a></li>
+                    <li><a href="/cultural/cultural.html" class="menu-btn">Tuyển dụng</a></li>
+                    <li><a href="#" class="menu-btn">Đào tạo & Sự kiện</a></li>
+                    <li><a href="#" class="menu-btn">Vì cộng đồng</a></li>
+                    <li><a href="#" class="menu-btn">Tin tức & Blog</a></li>
                 </ul>
+                <div class="menu-btn">
+                    <!-- <i class="fas fa-bars"></i> -->
+                    <i class="fal fa-bars"></i>
+                </div>
             </div>
-            <nav>
-                <input type="checkbox" id="check">
-                <label for="check" class="checkbtn">
-                    <i class="fas fa-bars"></i>
-                </label>
-                <ul>
-                    <li><a href="#">Trang chủ</a></li>
-                    <li><a href="">Giới thiệu</a> <img class="nav-arrow-down" src="./assets/images/icon-drop-down.png" alt="">
-                        <ul class="subnav">
-                            <li><a href="">Về React & ReactNative</a></li>
-                            <li><a href="">Công ty ReactPlus</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="">Văn hóa</a></li>
-                    <li><a href="">Tuyển dụng</a></li>
-                    <li><a href="">Đào tạo & Sự kiện</a> <img class="nav-arrow-down" src="./assets/images/icon-drop-down.png"
-                            alt="">
-                        <ul class="subnav">
-                            <li><a href="">Về React & ReactNative</a></li>
-                            <li><a href="">Công ty ReactPlus</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="">Vì cộng đồng</a></li>
-                    <li><a href="">Tin tức & Blog</a></li>
-                    </li>
-                </ul>
-            </nav>
-        </div> -->
+        </nav>
+        </div>
+        <script>
+            $(document).ready(function () {
+                $(".menu-btn").click(function () {
+                    $(".navbar .menu").toggleClass("active");
+                    $(".menu-btn i").toggleClass("active");
+                });
+            });
+        </script>
       </div>
 
       <div id="main">
