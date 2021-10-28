@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About React</title>
+    <!-- fontawesome -->
+
+    <link rel="stylesheet" href="http://kit-pro.fontawesome.com/releases/v5.12.0/css/pro.min.css">
+    <script src="./../lib/jquery-3.6.0.min.js"></script>
+    <!-- end fontawesome -->
+    <!-- common css -->
+    <link rel="stylesheet" href="./../css/common.css" />
+    <!-- style css -->
+    <link rel="stylesheet" href="./introduce-react.css" />
+</head>
+
+<body>
+    <!-- wrapper -->
+    <div class="wrapper">
+        <!-- header -->
+        <div class="header">
+            <nav class="navbar">
+                <div class="max-width">
+                    <div class="logo">
+                        <a href="/home-demo/home-demo.html"><img src="./images/logo.png" alt="" /></a>
+                    </div>
+                    <ul class="menu">
+                        <li><a href="/home-demo/home-demo.html" class="menu-btn">Trang chủ</a></li>
+                        <li><a href="/introduce-react/introduce-react.html" class="menu-btn">Giới thiệu</a></li>
+                        <li><a href="/introduce-company/introduce-company.html" class="menu-btn">Văn hóa</a></li>
+                        <li><a href="/cultural/cultural.html" class="menu-btn">Tuyển dụng</a></li>
+                        <li><a href="#" class="menu-btn">Đào tạo & Sự kiện</a></li>
+                        <li><a href="#" class="menu-btn">Vì cộng đồng</a></li>
+                        <li><a href="#" class="menu-btn">Tin tức & Blog</a></li>
+                    </ul>
+                    <div class="menu-btn">
+                        <!-- <i class="fas fa-bars"></i> -->
+                        <i class="fal fa-bars"></i>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <script>
+            $(document).ready(function() {
+                $(".menu-btn").click(function() {
+                    $(".navbar .menu").toggleClass("active");
+                    $(".menu-btn i").toggleClass("active");
+                });
+            });
+        </script>
+        <!-- end header -->
+        <!-- main -->
+        <div class="main">
+            <!-- banner -->
+            <div class="banner">
+                <div class="banner__bgborder">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-8">
+                                <div class="banner__inner">
+                                    <div class="plus">+ + +</div>
+                                    <h1 class="banner__title">
+                                        React <br /> Công nghệ phát triển tương lai
+                                    </h1>
+                                    <p class="banner__desc">
+                                        React (React.js) là thư viện Javascript để xây dựng UI vượt trội, được phát triển bởi Facebook. <br /> React Native là framework xây dựng ứng dụng di động native. Với React Native, chỉ cần 1 ngôn ngữ Javascript
+                                        duy nhất để xây dựng ứng dụng iOS và Android. <br /> Hiện nay, React & React Native đang được Facebook đầu tư phát triển mạnh với những cập nhật liên tục, nó còn được hỗ trợ bởi sự đóng góp từ các cá nhân và công
+                                        ty trên khắp thế giới như Callstack, Expo, Infinite Red, Microsoft và Software Mansion.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="banner__bg"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end banner -->
+            <!-- content -->
+            <div class="content">
+                <div class="content__inner">
+                    <div class="container">
+                        <div class="row">
+                            <!-- 1 item -->
+                            <div class="col-6 content__inner__item">
+                                <div class="content__inner__img">
+                                    <img src="./images/namtay.png" alt="" />
+                                </div>
+                            </div>
+                            <!-- end 1 item -->
+                            <!-- 1 item -->
+                            <div class="col-6 content__inner__1item">
+                                <div class="content__inner__desc">
+                                    <h3>Sức mạnh không giới hạn</h3>
+                                    <p>
+                                        Chỉ cần sử dụng Javascript, bạn có thể hô mưa gọi gió trên mọi mặt trận: web, desktop, server và đặc biệt là mobile. Điều này giúp một developer trở nên đa năng và độc lập, đảm bảo công việc được thống nhất và giúp dự án được rút gọn đi nhiều lần.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end 1 item -->
+                            <!-- 1 item -->
+                            <div class="col-6 order-2 content__inner__1item">
+                                <div class="content__inner__desc pl-0">
+                                    <h3>Tương lai của ứng dụng di động</h3>
+                                    <p>
+                                        Với hơn 98.000 sao trên Github và số lượng contributors cao thứ 2 trên toàn thế giới (2018), React Native chính là xu hướng hàng đầu của các nhà phát triển trong tương lai. Sức mạnh vượt trội và khả năng ứng dụng không giới hạn của nó đã thu hút những
+                                        khách hàng lớn trong mọi lĩnh vực và khiến họ ưu tiên lựa chọn các công ty chuyên về React để thực hiện dự án.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end 1 item -->
+                            <!-- 1 item -->
+                            <div class="col-6 order-1 content__inner__item">
+                                <div class="content__inner__img">
+                                    <img src="./images/tuonglaididong.png" alt="" />
+                                </div>
+                            </div>
+                            <!-- end 1 item -->
+                            <!-- 1 item -->
+                            <div class="col-6 order-3 content__inner__item">
+                                <div class="content__inner__img">
+                                    <img src="./images/loithevuottroi.png" alt="" />
+                                </div>
+                            </div>
+                            <!-- end 1 item -->
+                            <!-- 1 item -->
+                            <div class="col-6 order-4 content__inner__1item">
+                                <div class="content__inner__desc">
+                                    <h3>
+                                        Lợi thế vượt trội của developer khi thành thạo React
+                                    </h3>
+                                    <p>
+                                        Chỉ cần sử dụng Javascript, bạn có thể hô mưa gọi gió trên mọi mặt trận: web, desktop, server và đặc biệt là mobile. Điều này giúp một developer trở nên đa năng và độc lập, đảm bảo công việc được thống nhất và giúp dự án được rút gọn đi nhiều lần.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end 1 item -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end content -->
+            <!-- question -->
+            <div class="question">
+                <div class="question__inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="question__inner__left">
+                                    <h2 class="title">
+                                        Những câu hỏi thường gặp về công việc React & React Native
+                                    </h2>
+                                    <a href="" class="btn question__btn">Tìm hiểu khóa học React miễn phí
+                      <i class="fas fa-arrow-right"></i
+                    ></a>
+                                    <img src="./images/question.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <div class="question__inner__right">
+                                    <div class="question__accordion">
+                                        <!-- 1 item -->
+                                        <div class="question__item">
+                                            <div id="headingOne" class="question__item__title" data-toggle="collapse" data-target="#collapseOne">
+                                                <h4 class="question__item__title__text">
+                                                    Để thành thạo React cần học theo lộ trình, giáo trình nào?
+                                                </h4>
+                                                <i class="fas fa-angle-down"></i>
+                                            </div>
+                                            <div id="collapseOne" class="collapse question__item__desc">
+                                                Lorem ipsum dolor sit amet consectetur adipiscing elit turpis viverra amet elit est proin tgestas neque quis aliq vel viverra gravida orci vitae at aliquam sit accum.
+                                            </div>
+                                        </div>
+                                        <!-- end 1 item -->
+                                        <!-- 1 item -->
+                                        <div class="question__item">
+                                            <div id="headingOne2" class="question__item__title" data-toggle="collapse" data-target="#collapseOne2">
+                                                <h4 class="question__item__title__text">
+                                                    Để thành thạo React cần học theo lộ trình, giáo trình nào?
+                                                </h4>
+                                                <i class="fas fa-angle-down"></i>
+                                            </div>
+                                            <div id="collapseOne2" class="collapse question__item__desc">
+                                                Lorem ipsum dolor sit amet consectetur adipiscing elit turpis viverra amet elit est proin tgestas neque quis aliq vel viverra gravida orci vitae at aliquam sit accum.
+                                            </div>
+                                        </div>
+                                        <!-- end 1 item -->
+                                        <!-- 1 item -->
+                                        <div class="question__item">
+                                            <div id="headingOne3" class="question__item__title" data-toggle="collapse" data-target="#collapseOne3">
+                                                <h4 class="question__item__title__text">
+                                                    Để thành thạo React cần học theo lộ trình, giáo trình nào?
+                                                </h4>
+                                                <i class="fas fa-angle-down"></i>
+                                            </div>
+                                            <div id="collapseOne3" class="collapse question__item__desc">
+                                                Lorem ipsum dolor sit amet consectetur adipiscing elit turpis viverra amet elit est proin tgestas neque quis aliq vel viverra gravida orci vitae at aliquam sit accum.
+                                            </div>
+                                        </div>
+                                        <!-- end 1 item -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end question -->
+        </div>
+        <!-- end main -->
+        <!-- footer -->
+        <!-- end footer -->
+    </div>
+    <!-- end wrapper -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

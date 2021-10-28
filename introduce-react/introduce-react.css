@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* main */
+
+
+/* banner */
+
+.main .banner {
+    padding: 150px 0 0 0;
+}
+
+.main .banner .banner__bgborder {
+    background-image: url("./../img/border-bg-banner.png");
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main .banner .banner__inner .plus {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: -0.02em;
+    color: #00daff;
+}
+
+.main .banner .banner__inner .banner__title {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    color: #25282b;
+}
+
+.main .banner .banner__inner .banner__desc {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    color: #52575c;
+    margin-bottom: 50px;
+}
+
+.main .banner .banner__bg {
+    background-image: url("./../img/bg-banner.png");
+    width: 100%;
+    height: 249px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* end banner */
+
+
+/* content */
+
+.main .content .content__inner {
+    background: linear-gradient( 180deg, #f4f6fa 0%, rgba(244, 246, 250, 0) 83.85%);
+}
+
+.main .content .content__inner .content__inner__item {
+    margin: 55px 0;
+}
+
+.main .content .content__inner__1item {
+    display: flex;
+    align-items: center;
+}
+
+.main .content .content__inner__img img {
+    width: 100%;
+    /* height: 335px; */
+    object-fit: cover;
+}
+
+.main .content .content__inner__desc {
+    padding: 0 76px;
+}
+
+.main .content .content__inner__desc h3 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    letter-spacing: -0.02em;
+    color: #25282b;
+}
+
+.main .content .content__inner__desc p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    color: #52575c;
+}
+
+
+/* end content */
+
+
+/* question */
+
+.main .question .question__inner {
+    padding: 80px 0;
+    background: #f4f6fa;
+}
+
+.main .question .question__inner .question__inner__left h2.title {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    letter-spacing: -0.02em;
+    color: #25282b;
+}
+
+.main .question .question__inner .question__inner__left a.question__btn {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    /*  */
+    background: #0bbee7;
+    border-radius: 44px;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+
+.main .question .question__inner .question__inner__left a.question__btn i {
+    padding-left: 10px;
+}
+
+.main .question .question__inner .question__inner__right {
+    margin-left: 60px;
+}
+
+.main .question .question__inner .question__inner__right .question__accordion {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.05);
+}
+
+.main .question .question__inner .question__inner__right .question__accordion .question__item {
+    padding: 15px 0;
+    border-bottom: 1px solid #efefef;
+}
+
+.main .question .question__inner .question__inner__right .question__accordion .question__item .question__item__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.main .question .question__inner .question__inner__right .question__accordion .question__item .question__item__title .question__item__title__text {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    /* color: #0BBEE7; */
+    color: #25282b;
+}
+
+.main .question .question__inner .question__inner__right .question__accordion .question__item .question__item__desc {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    color: #52575c;
+    padding: 0 30px;
+}
+
+.main .question .question__inner .question__inner__right .question__accordion .question__item .question__item__title[aria-expanded="true"]>h4,
+.main .question .question__inner .question__inner__right .question__accordion .question__item .question__item__title[aria-expanded="true"]>i {
+    color: #0BBEE7;
+}
+
+
+/* end question */
+
+
+/* end main */
+
+
+/*  */
+
+@media all and (max-width: 768px) {
+    .main .content .content__inner__desc {
+        padding: 0 40px;
+    }
+}
+
+@media all and (max-width: 576px) {
+    .main .banner {
+        padding: 100px 0 0 0;
+    }
+    .main .question .question__inner .question__inner__left img {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .main .question .question__inner .question__inner__right {
+        margin: 0;
+    }
+    .main .content .content__inner__desc {
+        padding: 0;
+    }
+    .main .question .question__inner .question__inner__left a.question__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 20px;
+    }
+    .main .content .content__inner .content__inner__item {
+        margin: 15px 0;
+    }
+    .main .content .content__inner__desc h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .main .question .question__inner {
+        padding: 0 0 15px 0;
+    }
+    .main .question .question__inner .question__inner__left {
+        padding: 15px 0;
+    }
+    .main .question .question__inner .question__inner__left h2.title {
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .main .question .question__inner .question__inner__right {
+        margin: 0;
+    }
+    h3 {
+        margin: 0;
+    }
+}
